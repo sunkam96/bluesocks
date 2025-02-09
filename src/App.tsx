@@ -7,6 +7,7 @@ function App() {
       <div className="container">
         <BackgroundImageContainer/>
         <ContentContainer/>
+
       </div>
     </>
   )
@@ -24,9 +25,10 @@ function ContentContainer() {
   return (
     <div className="contentContainer">
       <div className="labelContainer">
-        <p className="labelText">Book Now</p>
+        {/* <p className="labelText">Book Now</p> */}
+        <p className="labelText">Tulsi has zombie deer disease<br/> and is not witty</p>
       </div>
-      <div className="timeContainer">
+      {/* <div className="timeContainer">
         <div className="dateContainer">
           <p className="dateText">Thursday Feb 7 2025</p>
         </div>
@@ -45,7 +47,7 @@ function ContentContainer() {
             <p className="slotText">2:00 am - 3:00 am</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
